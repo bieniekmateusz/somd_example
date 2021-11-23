@@ -1,0 +1,13 @@
+when using the bss the solvate is throwing an odd error
+
+however, it seems to be related to uploading the data, not really the crucial part
+Fatal Python error: could not acquire lock for <_io.BufferedWriter name='<stdout>'> at interpreter shutdown, possibly due to daemon threads
+
+Thread 0x00007f5cd16da640 (most recent call first):
+  File "/home/dresio/software/conda3/envs/bssdev/lib/python3.7/site-packages/Sire/__init__.py", line 253 in _uploadUsageData
+  File "/home/dresio/software/conda3/envs/bssdev/lib/python3.7/threading.py", line 870 in run
+  File "/home/dresio/software/conda3/envs/bssdev/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/home/dresio/software/conda3/envs/bssdev/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Current thread 0x00007f5d34b3c740 (most recent call first):
+
