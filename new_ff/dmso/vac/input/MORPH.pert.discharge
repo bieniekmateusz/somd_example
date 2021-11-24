@@ -1,0 +1,93 @@
+version 1
+ molecule UNL
+    atom
+            name S00
+            initial_type    X1
+            final_type      X1
+            initial_charge -1.28031
+            final_charge    0.00000
+            initial_LJ      3.23668  0.22539
+            final_LJ        3.23668  0.22539
+    endatom
+    atom
+            name C01
+            initial_type    X2
+            final_type      X2
+            initial_charge -0.50448
+            final_charge    0.00000
+            initial_LJ      3.67347  0.06195
+            final_LJ        3.67347  0.06195
+    endatom
+    atom
+            name C02
+            initial_type    X3
+            final_type      X3
+            initial_charge -0.49926
+            final_charge    0.00000
+            initial_LJ      3.66360  0.06195
+            final_LJ        3.66360  0.06195
+    endatom
+    atom
+            name O03
+            initial_type    X4
+            final_type      X4
+            initial_charge -0.71558
+            final_charge    0.00000
+            initial_LJ      3.16836  0.10010
+            final_LJ        3.16836  0.10010
+    endatom
+    atom
+            name H04
+            initial_type    X5
+            final_type      X5
+            initial_charge  0.16727
+            final_charge    0.00000
+            initial_LJ      2.20609  0.03596
+            final_LJ        2.20609  0.03596
+    endatom
+    atom
+            name H05
+            initial_type    X6
+            final_type      X6
+            initial_charge  0.16190
+            final_charge    0.00000
+            initial_LJ      2.24559  0.03596
+            final_LJ        2.24559  0.03596
+    endatom
+    atom
+            name H06
+            initial_type    X7
+            final_type      X7
+            initial_charge  0.16922
+            final_charge    0.00000
+            initial_LJ      2.19069  0.03596
+            final_LJ        2.19069  0.03596
+    endatom
+    atom
+            name H07
+            initial_type    X8
+            final_type      X8
+            initial_charge  0.16381
+            final_charge    0.00000
+            initial_LJ      2.21466  0.03596
+            final_LJ        2.21466  0.03596
+    endatom
+    atom
+            name H08
+            initial_type    X9
+            final_type      X9
+            initial_charge  0.17283
+            final_charge    0.00000
+            initial_LJ      2.17633  0.03596
+            final_LJ        2.17633  0.03596
+    endatom
+    atom
+            name H09
+            initial_type    X10
+            final_type      X10
+            initial_charge  0.16461
+            final_charge    0.00000
+            initial_LJ      2.23468  0.03596
+            final_LJ        2.23468  0.03596
+    endatom
+end molecule
